@@ -17,22 +17,47 @@ def third_challenge
         #your key/value pairs here
         },
       :hero_friends => [
+        {
         :name => "Benvolio",
         :age => "17",
-        :attitude => "worried"]
-   }, 
+        :attitude => "worried"
+        },
+        {
+        :name => "Mercutio", 
+        :age => "18",
+        :attitude => "hot-headed"
+     }
+    ]
+   },
    :capulet => {
       :patriarch => {
+        :name => "Lord capulet",
+        :age => "50"
         #your key/value pairs here
         },
       :matriarch => {
+        :name => "Lady capulet",
+        :age => "51"
         #your key/value pairs here
         },
       :heroine => {
+        :name => "Juliet",
+        :age "15",
         #your key/value pairs here
         },
-      :heroine_friends => []
-   }
+      :heroine_friends => [
+        
+        :name => "Steven",
+        :age =>"30",
+        :attitude => "confused" 
+        },
+        {
+        :name => "Nurse", 
+        :age => "44",
+        :attitude => "worried"
+        }
+      ]
+    }
   }
 
   
